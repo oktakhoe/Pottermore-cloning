@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  background-color: rgb(188, 206, 218);
+}
+
+.navbar {
+  background-color: rgb(11, 32, 47);
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+}
+
+.nbLogo {
+  width: 180px;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonLogin {
+  border: 1px solid rgb(188, 206, 218);
+  background-color: rgb(11, 32, 47);
+  color: rgb(188, 206, 218);
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-size: 13px;
+  position: absolute;
+  top: 30px;
+  right: 130px;
+}
+
+.buttonLogin:hover {
+  background-color: rgb(77, 100, 117);
+  color: rgb(11, 32, 47);
+  cursor: pointer;
+}
+
+.buttonLogin:active {
+  background-color: rgb(11, 32, 47);
+  color: rgb(188, 206, 218);
+}
+
+.buttonSignUp {
+  border: 1px solid rgb(65, 41, 137);
+  background-color: rgb(65, 41, 137);
+  color: rgb(188, 206, 218);
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-size: 12px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.buttonSignUp:hover {
+  background-color: rgb(77, 100, 117);
+  color: rgb(11, 32, 47);
+  cursor: pointer;
+}
+
+.buttonSignUp:active {
+  background-color: rgb(11, 32, 47);
+  color: rgb(188, 206, 218);
+}
+
+#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(30, 58, 78);
+  font-size: 18px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nbMenu {
+  float: left;
+  display: block;
+  color: rgb(188, 206, 218);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Cinzel", serif;
+}
+
+.nbMenu:hover {
+  background-color: rgb(77, 100, 117);
+}
+
+.nbMenu:active {
+  background-color: rgb(11, 32, 47);
+}
+
+.mvsTtl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family: "Cinzel", serif;
+  color: rgb(133, 106, 32);
+}
+
+.row {
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.movie {
+  border: 10px solid rgb(110, 91, 34);
+  background-color: rgb(167, 170, 172);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(155, 120, 24);
+}
+
+.poster {
+  width: 300px;
+}
+
+.movieTitle {
+  text-align: center;
+  font-family: "Cinzel", serif;
+  border: 6px solid rgb(110, 91, 34);
+  background-color: rgb(196, 201, 205);
+  margin: 0;
+  margin-top: 30px;
+  padding: 10px;
+  width: 420px;
+}
+
+.ttl1 {
+  margin: 0;
+  font-size: 38px;
+}
+
+.ttl2 {
+  margin: 0;
+  font-size: 26px;
+}
+
+.ttl3 {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.footer {
+  background-color: rgb(11, 32, 47);
+}
+
+.credit {
+  margin: 0 auto;
+  padding: 50px;
+  padding-bottom: 100px;
+  color: rgb(188, 206, 218);
+}
+
+.cdtPrg {
+  border: 2px solid rgb(139, 163, 181);
+  padding: 20px 150px;
+}

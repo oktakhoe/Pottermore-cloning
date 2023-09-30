@@ -1,0 +1,157 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(14, 40, 54);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.signUpLogo {
+  width: 180px;
+  cursor: pointer;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#hr1 {
+  border: 1px solid rgb(105, 113, 118);
+  width: 110px;
+  position: absolute;
+  top: 200px;
+  left: 608px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Cinzel", serif;
+  font-size: 40px;
+  color: rgb(188, 206, 218);
+  margin-bottom: 0px;
+}
+
+#hr2 {
+  border: 1px solid rgb(105, 113, 118);
+  width: 110px;
+  position: absolute;
+  top: 200px;
+  right: 608px;
+}
+
+#p1 {
+  color: rgb(188, 206, 218);
+  text-align: left;
+  width: 424px;
+  font-size: 18px;
+}
+
+.emailAddress {
+  color: rgb(188, 206, 218);
+  font-size: 15px;
+}
+
+#email {
+  border: 2px solid rgb(105, 113, 118);
+  background-color: rgb(14, 40, 54);
+  width: 380px;
+  height: 50px;
+  border-radius: 5px;
+  padding: 0px 20px;
+  font-size: 15px;
+  color: rgb(188, 206, 218);
+}
+
+.password {
+  color: rgb(188, 206, 218);
+  font-size: 15px;
+}
+
+#pwd {
+  border: 2px solid rgb(105, 113, 118);
+  background-color: rgb(14, 40, 54);
+  width: 380px;
+  height: 50px;
+  border-radius: 5px;
+  padding: 0px 20px;
+  font-size: 15px;
+  color: rgb(188, 206, 218);
+}
+
+#fgtPwd {
+  font-size: 18px;
+  color: rgb(148, 133, 195);
+  width: 424px;
+}
+
+#login {
+  border: 1px solid rgb(65, 41, 137);
+  width: 425px;
+  height: 50px;
+  background-color: rgb(65, 41, 137);
+  color: rgb(188, 206, 218);
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#login:hover {
+  background-color: rgb(51, 30, 113);
+  color: rgb(188, 206, 218);
+  cursor: pointer;
+}
+
+#login:active {
+  background-color: rgb(65, 41, 137);
+  color: rgb(188, 206, 218);
+}
+
+#hr3 {
+  border: 1px solid rgb(105, 113, 118);
+  width: 428px;
+}
+
+h2 {
+  font-family: "Cinzel", serif;
+  font-size: 25px;
+  color: rgb(188, 206, 218);
+  text-align: center;
+}
+
+#signUpButton {
+  border: 1px solid rgb(188, 206, 218);
+  width: 425px;
+  height: 50px;
+  background-color: rgb(14, 40, 54);
+  color: rgb(188, 206, 218);
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+#signUpButton:hover {
+  background-color: rgb(77, 100, 117);
+  color: rgb(11, 32, 47);
+  cursor: pointer;
+}
+
+#signUpButton:active {
+  background-color: rgb(14, 40, 54);
+  color: rgb(188, 206, 218);
+}

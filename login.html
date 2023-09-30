@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pottermore - Register</title>
+    <link rel="icon" type="image/png" href="./img/channels4_profile.jpg" />
+    <link rel="stylesheet" href="./loginStyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inconsolata:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="home">
+      <div class="logo">
+        <a href="index.html"
+          ><img
+            src="./img/pottermore-wizarding-world-logo.webp"
+            alt="wizarding world logo"
+            class="signUpLogo"
+        /></a>
+      </div>
+      <hr id="hr1" />
+      <hr id="hr2" />
+      <h1>Login</h1>
+      <p id="p1">
+        Welcome back and enjoy magical features including the official Harry
+        Potter!
+      </p>
+    </section>
+    <br />
+    <section class="accountForm">
+      <form
+        action="https://fakestoreapi.com/products"
+        method="GET"
+        name="myForm"
+        enctype="multipart/form-data"
+      >
+        <div class="emailAddress">
+          <label for="email">EMAIL ADDRESS</label>
+          <br />
+          <br />
+          <input type="text" name="email" id="email" required />
+        </div>
+        <br />
+        <div class="password">
+          <label for="pwd">PASSWORD</label>
+          <br />
+          <br />
+          <input type="password" name="password" id="pwd" required />
+        </div>
+      </form>
+    </section>
+    <br />
+    <section class="forgotPassword">
+      <a href="./forgotPassword.html" id="fgtPwd">Forgot password?</a>
+    </section>
+    <br />
+    <section class="loginForm">
+      <button type="submit" id="login">LOGIN</button>
+    </section>
+    <br />
+    <hr id="hr3" />
+    <section class="login">
+      <h2>Don't have an account?</h2>
+      <a href="./signUp.html"
+        ><button id="signUpButton" type="submit">SIGN UP</button></a
+      >
+    </section>
+  </body>
+</html>

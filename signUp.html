@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pottermore - Register</title>
+    <link rel="icon" type="image/png" href="./img/channels4_profile.jpg" />
+    <link rel="stylesheet" href="./signUpStyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inconsolata:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="home">
+      <div class="logo">
+        <a href="index.html"
+          ><img
+            src="./img/pottermore-wizarding-world-logo.webp"
+            alt="wizarding world logo"
+            class="signUpLogo"
+        /></a>
+      </div>
+      <hr id="hr1" />
+      <hr id="hr2" />
+      <h1>Sign Up</h1>
+      <p id="p1">
+        Enjoy magical features including the official Harry Potter merchandise,
+        news, and more!
+      </p>
+    </section>
+    <br />
+    <section class="accountForm">
+      <form
+        action="https://fakestoreapi.com/products"
+        method="GET"
+        name="myForm"
+        enctype="multipart/form-data"
+      >
+        <div class="DoB">
+          <label for="date">DATE OF BIRTH</label>
+          <br />
+          <br />
+          <input
+            type="text"
+            name="date"
+            id="date"
+            placeholder="DD/MM/YYYY"
+            required
+          />
+        </div>
+        <br />
+        <div class="emailAddress">
+          <label for="email">EMAIL ADDRESS</label>
+          <br />
+          <br />
+          <input type="text" name="email" id="email" required />
+        </div>
+        <br />
+        <div class="password">
+          <label for="pwd">PASSWORD</label>
+          <br />
+          <br />
+          <input type="password" name="password" id="pwd" required />
+        </div>
+        <br />
+        <div class="name">
+          <div class="firstName">
+            <label for="fstnm">FIRST NAME</label>
+            <br />
+            <br />
+            <input type="text" name="name1" id="fstnm" required />
+          </div>
+          <div class="lastName">
+            <label for="lstnm">LAST NAME</label>
+            <br />
+            <br />
+            <input type="text" name="name2" id="lstnm" required />
+          </div>
+        </div>
+      </form>
+    </section>
+    <br />
+    <section class="terms">
+      <p id="p2">
+        By proceeding you agree to our
+        <a class="lnk" href="./terms/termsOfUse.html">Terms of Use</a> and
+        achknowledge our
+        <a class="lnk" href="./terms/privacyPolicy.html">Privacy Policy</a>
+      </p>
+    </section>
+    <br />
+    <section class="signUpForm">
+      <button type="submit" id="suForm">SIGN UP</button>
+    </section>
+    <br />
+    <hr id="hr3" />
+    <section class="login">
+      <h2>Already have an account?</h2>
+      <a href="./login.html"><button id="loginButton" type="submit">LOGIN</button></a>
+    </section>
+  </body>
+</html>
